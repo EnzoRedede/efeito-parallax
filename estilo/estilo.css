@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0px;
+}
+
+/* Colocando as imagens de fundo */
+div.caixa1 {
+    background-image: url(../imagens/imagem3.jpg);
+}
+
+div.caixa2 {
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+div.caixa3 {
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+/* Efeito Parallax */
+.caixa1, .caixa2, .caixa3{
+    height: 100vh;
+    opacity: 0.9 black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 1px 50px 0px;
+}
+
+/* Seções de texto */
+section.conteudo {
+    background-color: #f5f5f5;
+    height: 70vh;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    line-height: 1.5em;
+}
+
+/* caixa do centro do titulo */
+div.caixa_titulo {
+    position: relative;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Titulo do centro */
+span.titulo_centro {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
